@@ -173,7 +173,7 @@ function result_akhir(result) {
             // checkbox clicked checking
             if(result[i].completed === true){
                 let tag = '<li class="d-flex" id="list'+i+'">' + 
-                '<input type="checkbox" class="checkbox" id="checkbox'+i+'" checked onclick="todo_check('+i+')" ><p style="margin-left: 30px; width: 300px;" class="checked" id="span'+i+'">' + item.name + '</p><button class="delete-button" onclick="remove_todo('+i+')" >X</button>' +
+                '<input type="checkbox" class="checkbox" id="checkbox'+i+'" checked onclick="todo_check('+i+')" disabled><p style="margin-left: 30px; width: 300px;" class="checked" id="span'+i+'">' + item.name + '</p><button class="delete-button" onclick="remove_todo('+i+')" disabled>X</button>' +
             '</li>';
 
                 // append tag to html
@@ -181,7 +181,7 @@ function result_akhir(result) {
 
             } else {
                 tag = '<li class="d-flex" id="list'+i+'">' + 
-                '<input type="checkbox" class="checkbox" id="checkbox'+i+'" null onclick="todo_check('+i+')" ><p style="margin-left: 30px; width: 300px;" id="span'+i+'">' + item.name + '</p><button class="delete-button" onclick="remove_todo('+i+')" >X</button>' +
+                '<input type="checkbox" class="checkbox" id="checkbox'+i+'" null onclick="todo_check('+i+')" disabled><p style="margin-left: 30px; width: 300px;" id="span'+i+'" >' + item.name + '</p><button class="delete-button" onclick="remove_todo('+i+')" disabled>X</button>' +
             '</li>';;
 
                 // append tag to html
