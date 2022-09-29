@@ -1,0 +1,146 @@
+body {
+  font-family: "Montserrat";
+}
+.container-fluid {
+  padding: 4% 15%;
+}
+
+/* transform */
+/* zoom */
+.zoom {
+  transition: 0.5s;
+}
+.zoom:hover {
+  transform: scale(1.05);
+}
+/* change color porto */
+.change-color {
+  transition: 1s;
+}
+.change-color:hover {
+  color: white;;
+}
+/* change color button */
+.change-col-button {
+  transition: 1s;
+}
+.change-col-button:hover {
+  color: #022C43;
+  background-color: #FFFFFF;
+}
+.nav-hover {
+  transition: 0.5s;
+}
+.nav-hover:hover{
+  background-color: darkgoldenrod;
+}
+
+/* section styling */
+#home .container-fluid {
+  padding: 2% 15% 2%;
+}
+#portfolio .container-fluid {
+  padding: 3% 15% 4%;
+  text-align: center;
+}
+#blog .container-fluid {
+  padding: 3% 15% 4%;
+}
+#contact-us .container-fluid {
+    padding: 3% 15% 3%;
+}
+#about-us .container-fluid {
+    justify-content: center;
+    align-items: center;
+    padding: 3% 15% 5%;
+}
+.colored-section {
+  background-color: darkgoldenrod;
+}
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-dark {
+  color: black;
+}
+
+/* Portfolio Section */
+#features {
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.boxhead {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+/* About Us Section */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Contact Us Section */
+.box {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.leftside {
+  color: white;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: #022C43;
+  border-radius: 5px;
+}
+.rightside {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+.greytext {
+  color: lightgrey;
+}
+.contacticon {
+  padding-right: 20px;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 2% 15% 2%;
+}
+
+/* responsive sreen */
+@media (max-width: 1028px) {
+  #home {
+    text-align: center;
+  }
+
+  .home-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

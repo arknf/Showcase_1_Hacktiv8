@@ -1,0 +1,53 @@
+/* header */
+#home2 .container-fluid {
+    padding: 2% 15% 2%;
+}
+
+#home3 .container-fluid {
+    padding: 0.5% 15% 0.5%;
+}
+
+/* gradient section */
+#meet-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.gradient-section {
+    height: 500px;
+    background: linear-gradient(30deg, rgba(186,154,44,1) 0%, rgba(115,95,17,1) 100%);
+    transition: 1s;
+}
+.gradient-section:hover {
+    background: #053F5E;
+}
+
+/* meet-ceo */
+#meet-ceo .container-fluid {
+    padding: 2% 15% 2%;
+}
+.photo-full {
+    width: 100%;
+}
+
+/* history */
+#history .container-fluid {
+    padding: 2% 15% 2%;
+}
+.company-photo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* board-of */
+#board-of .container-fluid {
+    padding: 2% 15% 2%;
+}
+.zoom {
+    transition: 0.5s;
+}
+.zoom:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,51 @@
+#product .container-fluid {
+    padding: 3% 10% 4%;
+    text-align: left;
+}
+
+#home2 .container-fluid {
+    padding: 2% 10% 2%;
+}
+
+#home3 .container-fluid {
+    padding: 0.5% 10% 0.5%;
+}
+
+#simple-explanation .container-fluid {
+    padding: 2% 10% 2%;
+    transition: 1s;
+}
+#simple-explanation .container-fluid:hover {
+    padding: 2% 10% 2%;
+    background-color: #022C43;
+    color: white;
+}
+
+#join-us .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 2%;
+    text-align: center;
+    font-weight: bold;
+}
+.photo-section {
+    background-image: url('/images/construction_background.png');
+    height: 477px;
+}
+.shadow-box {
+    width: 400px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.shadow-box:hover {
+    width: 400px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #022C43;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

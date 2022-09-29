@@ -1,0 +1,71 @@
+/* header */
+#home2 .container-fluid {
+  padding: 2% 15% 2%;
+}
+
+#home3 .container-fluid {
+  padding: 0.5% 15% 0.5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-dark {
+  color: black;
+}
+.nav-hover {
+  transition: 0.5s;
+}
+.nav-hover:hover{
+  background-color: darkgoldenrod;
+}
+
+/* section */
+.colored-section {
+  background-color: darkgoldenrod;
+}
+.white-section {
+  background-color: white;
+}
+#join-us .container-fluid {
+  padding: 4% 15% 4%;
+}
+
+/* contact */
+.box {
+  background-color: white;
+  border-radius: 5px;
+}
+.leftside {
+  color: white;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: #022c43;
+  border-radius: 5px;
+}
+.rightside {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+.greytext {
+  color: lightgrey;
+}
+.contacticon {
+  padding-right: 20px;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 2% 15% 2%;
+}
